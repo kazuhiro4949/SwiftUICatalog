@@ -68,12 +68,20 @@ struct LayoutList: View {
                 NavigationLink("Divider", destination: DividerSample())
             }
             Section(header: Text("Architectural Views")) {
-                NavigationLink("NavigationView", destination: TabViewPresentationSample())
-//                NavigationLink("TabView", destination: DividerSample())
+                NavigationLink("NavigationView", destination: NavigationViewSample())
+                NavigationLink("TabView", destination: TabViewPresentationSample())
             }
             Section(header: Text("Presentation")) {
                 NavigationLink("Alert", destination: AlertSample())
                 NavigationLink("ActionSheet", destination: ActionSheetSample())
+            }
+            Section(header: Text("Conditionally Visible Items")) {
+                NavigationLink("EmptyView", destination: EmptyViewSample())
+//                NavigationLink("EquatableView", destination: EquatableViewSample())
+            }
+            Section(header: Text("Infrequently Used Views")) {
+                NavigationLink("AnyView", destination: AnyViewSample())
+                NavigationLink("TupleView", destination: TupleViewSample())
             }
         }.navigationBarTitle("Layout")
     }
@@ -207,11 +215,33 @@ struct DividerSample: View {
     }
 }
 
+struct NavigationViewSample: View {
+    @State var isShowing: Bool = false
+    
+    var body: some View {
+        Button("show NavigationView") {
+            self.isShowing = true
+        }
+        .foregroundColor(.blue)
+        .sheet(isPresented: $isShowing) {
+            NavigationView {
+                NavigationViewContentSample()
+            }
+        }
+    }
+}
+
+struct NavigationViewContentSample: View {
+    var body: some View {
+        NavigationLink("push", destination:  NavigationViewSample())
+    }
+}
+
 struct TabViewPresentationSample: View {
     @State var isShowing: Bool = false
     
     var body: some View {
-        Button("show alert") {
+        Button("show TabView") {
             self.isShowing = true
         }
         .foregroundColor(.blue)
@@ -238,6 +268,84 @@ struct TabViewSample: View {
         }
     }
 }
+
+
+struct EmptyViewSample: View {
+    var body: some View {
+        EmptyView()
+    }
+}
+
+struct AnyViewSample: View {
+    var body: some View {
+        AnyView(Rectangle().frame(width: 50, height: 50).foregroundColor(.red))
+    }
+}
+
+struct TupleViewSample: View {
+    var body: some View {
+        TupleView(
+            (Rectangle().frame(width: 50, height: 50).foregroundColor(.red),
+             Rectangle().frame(width: 50, height: 50).foregroundColor(.blue))
+        )
+    }
+}
+
+//struct EquatableViewSample: View {
+//    @State var incrementer: Int = 0
+//
+//    var body: some View {
+//        VStack {
+//            Button("update") {
+//                self.incrementer += 1
+//            }
+//
+//            EquatableView(content: ComparedView(value: incrementer))
+//        }
+//    }
+//}
+//
+//struct ComparedView: View, Equatable {
+//    var value: Int
+//
+//    static func == (lhs: ComparedView, rhs: ComparedView) -> Bool {
+//        return true
+//    }
+//
+//    var body: some View {
+//        Text("\(value)")
+//    }
+//}
+
+
+//struct HSplitPresentationSample: View {
+//    @State var isShowing: Bool = false
+//
+//    var body: some View {
+//        Button("show HSplitView") {
+//            self.isShowing = true
+//        }
+//        .foregroundColor(.blue)
+//        .sheet(isPresented: $isShowing) {
+//            HSplitViewSample()
+//        }
+//    }
+//}
+//
+//struct VSplitPresentationSample: View {
+//    @State var isShowing: Bool = false
+//
+//    var body: some View {
+//        Button("show VSplitView") {
+//            self.isShowing = true
+//        }
+//        .foregroundColor(.blue)
+//        .sheet(isPresented: $isShowing) {
+//            VSplitViewSample()
+//        }
+//    }
+//}
+
 
 //struct GroupBox: View {
 //    var body: some View {
