@@ -22,7 +22,14 @@ This app currently targets iOS and refers to https://developer.apple.com/documen
 2. Build the project with Xcode 11.0 beta5
 3. Browse each api
 
-# Supporting
+# Support status
+
+There are some sections to categorize the APIs as follows.
+
+https://developer.apple.com/documentation/swiftui 
+
+
+I'm adding them sequentially.
 
 - Views and Controls 80%  
 - View Layout and Presentation 100% 
