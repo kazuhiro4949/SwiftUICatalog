@@ -1,7 +1,7 @@
 # SwiftUICatalog
 Minimum implementation and execution result for each api in SwiftUI
 
-This app refers to https://developer.apple.com/documentation/swiftui
+This iOS app refers to https://developer.apple.com/documentation/swiftui
 
 # Requirement
 - iOS 13+
