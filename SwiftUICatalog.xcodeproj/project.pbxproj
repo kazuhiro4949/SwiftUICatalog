@@ -24,8 +24,57 @@
 		2B22A62222F6988E00128814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B22A62022F6988E00128814 /* LaunchScreen.storyboard */; };
 		2B22A62D22F6988E00128814 /* SwiftUICatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A62C22F6988E00128814 /* SwiftUICatalogTests.swift */; };
 		2B22A63822F6988F00128814 /* SwiftUICatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A63722F6988F00128814 /* SwiftUICatalogUITests.swift */; };
+		2B4F675222FA5BD200EF5403 /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F675122FA5BD200EF5403 /* AnimationSample.swift */; };
+		2B66DE8822FA5C5700DEE894 /* AnimatableSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE8722FA5C5600DEE894 /* AnimatableSample.swift */; };
+		2B66DE8A22FA5C6900DEE894 /* WithAnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE8922FA5C6900DEE894 /* WithAnimationSample.swift */; };
+		2B66DE8C22FA5C8400DEE894 /* AnimatablePairSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE8B22FA5C8400DEE894 /* AnimatablePairSample.swift */; };
+		2B66DE8E22FA5CBC00DEE894 /* RectangleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE8D22FA5CBC00DEE894 /* RectangleSample.swift */; };
+		2B66DE9022FA5CD000DEE894 /* EdgeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE8F22FA5CD000DEE894 /* EdgeSample.swift */; };
+		2B66DE9222FA5CE700DEE894 /* RoundedRectangleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9122FA5CE700DEE894 /* RoundedRectangleSample.swift */; };
+		2B66DE9422FA5D1B00DEE894 /* CircleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9322FA5D1B00DEE894 /* CircleSample.swift */; };
+		2B66DE9622FA5D2D00DEE894 /* EllipseSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9522FA5D2D00DEE894 /* EllipseSample.swift */; };
+		2B66DE9822FA5D4200DEE894 /* CapsuleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9722FA5D4200DEE894 /* CapsuleSample.swift */; };
+		2B66DE9A22FA5D5600DEE894 /* PathSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9922FA5D5600DEE894 /* PathSample.swift */; };
+		2B66DE9C22FA5DBA00DEE894 /* ScaledShapeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9B22FA5DBA00DEE894 /* ScaledShapeSample.swift */; };
+		2B66DE9E22FA5E0800DEE894 /* RotatedShapeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9D22FA5E0800DEE894 /* RotatedShapeSample.swift */; };
+		2B66DEA022FA5E5500DEE894 /* OffsetShapeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DE9F22FA5E5500DEE894 /* OffsetShapeSample.swift */; };
+		2B66DEA222FA5E7F00DEE894 /* TransformedShapeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEA122FA5E7F00DEE894 /* TransformedShapeSample.swift */; };
+		2B66DEA422FA5EBF00DEE894 /* ColorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEA322FA5EBF00DEE894 /* ColorSample.swift */; };
+		2B66DEA622FA5ED600DEE894 /* ImagePaintSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEA522FA5ED600DEE894 /* ImagePaintSample.swift */; };
+		2B66DEA822FA5EE400DEE894 /* LinearGradientSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEA722FA5EE400DEE894 /* LinearGradientSample.swift */; };
+		2B66DEAA22FA5EEF00DEE894 /* AngularGradientSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEA922FA5EEF00DEE894 /* AngularGradientSample.swift */; };
+		2B66DEAC22FA5EFA00DEE894 /* RadialGradientSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEAB22FA5EFA00DEE894 /* RadialGradientSample.swift */; };
+		2B66DEB222FA5F7E00DEE894 /* GeometryReaderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEB122FA5F7E00DEE894 /* GeometryReaderSample.swift */; };
+		2B66DEB422FA60C900DEE894 /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66DEB322FA60C900DEE894 /* TextSample.swift */; };
 		2B69101222F9B3F300149C5F /* DrawingAndAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */; };
 		2B69101522F9B6C600149C5F /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B69101422F9B6C600149C5F /* Gesture.swift */; };
+		2BE6426122FA613E002B4E09 /* TextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426022FA613E002B4E09 /* TextFieldSample.swift */; };
+		2BE6426322FA6157002B4E09 /* SecureFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */; };
+		2BE6426522FA6164002B4E09 /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426422FA6164002B4E09 /* FontSample.swift */; };
+		2BE6426722FA6170002B4E09 /* ImageSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426622FA6170002B4E09 /* ImageSample.swift */; };
+		2BE6426922FA6182002B4E09 /* ButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426822FA6182002B4E09 /* ButtonSample.swift */; };
+		2BE6426B22FA618C002B4E09 /* NavigationLinkSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426A22FA618C002B4E09 /* NavigationLinkSample.swift */; };
+		2BE6426D22FA6194002B4E09 /* EditButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426C22FA6194002B4E09 /* EditButtonSample.swift */; };
+		2BE6426F22FA61A3002B4E09 /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426E22FA61A3002B4E09 /* ToggleSample.swift */; };
+		2BE6427122FA61B1002B4E09 /* PickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427022FA61B1002B4E09 /* PickerSample.swift */; };
+		2BE6427322FA61BB002B4E09 /* DatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427222FA61BB002B4E09 /* DatePickerSample.swift */; };
+		2BE6427522FA61C5002B4E09 /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427422FA61C5002B4E09 /* SliderSample.swift */; };
+		2BE6427722FA61D0002B4E09 /* StepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427622FA61D0002B4E09 /* StepperSample.swift */; };
+		2BE6427922FA61DF002B4E09 /* SegmentedPickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427822FA61DF002B4E09 /* SegmentedPickerSample.swift */; };
+		2BE6427B22FA61ED002B4E09 /* ViewBuilderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427A22FA61ED002B4E09 /* ViewBuilderSample.swift */; };
+		2BE6427D22FA61FA002B4E09 /* ViewModifierSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427C22FA61FA002B4E09 /* ViewModifierSample.swift */; };
+		2BE6427F22FA621A002B4E09 /* SpacerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6427E22FA621A002B4E09 /* SpacerSample.swift */; };
+		2BE6428122FA6231002B4E09 /* DividerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428022FA6231002B4E09 /* DividerSample.swift */; };
+		2BE6428322FA623A002B4E09 /* NavigationViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428222FA623A002B4E09 /* NavigationViewSample.swift */; };
+		2BE6428522FA624B002B4E09 /* NavigationViewContentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428422FA624B002B4E09 /* NavigationViewContentSample.swift */; };
+		2BE6428722FA6255002B4E09 /* TabViewPresentationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428622FA6255002B4E09 /* TabViewPresentationSample.swift */; };
+		2BE6428922FA6263002B4E09 /* TabViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428822FA6263002B4E09 /* TabViewSample.swift */; };
+		2BE6428B22FA6271002B4E09 /* EmptyViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428A22FA6271002B4E09 /* EmptyViewSample.swift */; };
+		2BE6428D22FA627B002B4E09 /* AnyViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428C22FA627B002B4E09 /* AnyViewSample.swift */; };
+		2BE6428F22FA6291002B4E09 /* TupleViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6428E22FA6291002B4E09 /* TupleViewSample.swift */; };
+		2BE6429122FA629F002B4E09 /* EquatableViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6429022FA629F002B4E09 /* EquatableViewSample.swift */; };
+		2BE6429522FA62D8002B4E09 /* AlertSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6429422FA62D8002B4E09 /* AlertSample.swift */; };
+		2BE6429722FA62E5002B4E09 /* ActionSheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6429622FA62E5002B4E09 /* ActionSheetSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +118,57 @@
 		2B22A63322F6988F00128814 /* SwiftUICatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B22A63722F6988F00128814 /* SwiftUICatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICatalogUITests.swift; sourceTree = "<group>"; };
 		2B22A63922F6988F00128814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4F675122FA5BD200EF5403 /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
+		2B66DE8722FA5C5600DEE894 /* AnimatableSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableSample.swift; sourceTree = "<group>"; };
+		2B66DE8922FA5C6900DEE894 /* WithAnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationSample.swift; sourceTree = "<group>"; };
+		2B66DE8B22FA5C8400DEE894 /* AnimatablePairSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairSample.swift; sourceTree = "<group>"; };
+		2B66DE8D22FA5CBC00DEE894 /* RectangleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSample.swift; sourceTree = "<group>"; };
+		2B66DE8F22FA5CD000DEE894 /* EdgeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSample.swift; sourceTree = "<group>"; };
+		2B66DE9122FA5CE700DEE894 /* RoundedRectangleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleSample.swift; sourceTree = "<group>"; };
+		2B66DE9322FA5D1B00DEE894 /* CircleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSample.swift; sourceTree = "<group>"; };
+		2B66DE9522FA5D2D00DEE894 /* EllipseSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseSample.swift; sourceTree = "<group>"; };
+		2B66DE9722FA5D4200DEE894 /* CapsuleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleSample.swift; sourceTree = "<group>"; };
+		2B66DE9922FA5D5600DEE894 /* PathSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSample.swift; sourceTree = "<group>"; };
+		2B66DE9B22FA5DBA00DEE894 /* ScaledShapeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledShapeSample.swift; sourceTree = "<group>"; };
+		2B66DE9D22FA5E0800DEE894 /* RotatedShapeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedShapeSample.swift; sourceTree = "<group>"; };
+		2B66DE9F22FA5E5500DEE894 /* OffsetShapeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetShapeSample.swift; sourceTree = "<group>"; };
+		2B66DEA122FA5E7F00DEE894 /* TransformedShapeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformedShapeSample.swift; sourceTree = "<group>"; };
+		2B66DEA322FA5EBF00DEE894 /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
+		2B66DEA522FA5ED600DEE894 /* ImagePaintSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintSample.swift; sourceTree = "<group>"; };
+		2B66DEA722FA5EE400DEE894 /* LinearGradientSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientSample.swift; sourceTree = "<group>"; };
+		2B66DEA922FA5EEF00DEE894 /* AngularGradientSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientSample.swift; sourceTree = "<group>"; };
+		2B66DEAB22FA5EFA00DEE894 /* RadialGradientSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientSample.swift; sourceTree = "<group>"; };
+		2B66DEB122FA5F7E00DEE894 /* GeometryReaderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderSample.swift; sourceTree = "<group>"; };
+		2B66DEB322FA60C900DEE894 /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
 		2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAndAnimation.swift; sourceTree = "<group>"; };
 		2B69101422F9B6C600149C5F /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		2BE6426022FA613E002B4E09 /* TextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSample.swift; sourceTree = "<group>"; };
+		2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldSample.swift; sourceTree = "<group>"; };
+		2BE6426422FA6164002B4E09 /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
+		2BE6426622FA6170002B4E09 /* ImageSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSample.swift; sourceTree = "<group>"; };
+		2BE6426822FA6182002B4E09 /* ButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSample.swift; sourceTree = "<group>"; };
+		2BE6426A22FA618C002B4E09 /* NavigationLinkSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkSample.swift; sourceTree = "<group>"; };
+		2BE6426C22FA6194002B4E09 /* EditButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonSample.swift; sourceTree = "<group>"; };
+		2BE6426E22FA61A3002B4E09 /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
+		2BE6427022FA61B1002B4E09 /* PickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSample.swift; sourceTree = "<group>"; };
+		2BE6427222FA61BB002B4E09 /* DatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSample.swift; sourceTree = "<group>"; };
+		2BE6427422FA61C5002B4E09 /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
+		2BE6427622FA61D0002B4E09 /* StepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSample.swift; sourceTree = "<group>"; };
+		2BE6427822FA61DF002B4E09 /* SegmentedPickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerSample.swift; sourceTree = "<group>"; };
+		2BE6427A22FA61ED002B4E09 /* ViewBuilderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderSample.swift; sourceTree = "<group>"; };
+		2BE6427C22FA61FA002B4E09 /* ViewModifierSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierSample.swift; sourceTree = "<group>"; };
+		2BE6427E22FA621A002B4E09 /* SpacerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerSample.swift; sourceTree = "<group>"; };
+		2BE6428022FA6231002B4E09 /* DividerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerSample.swift; sourceTree = "<group>"; };
+		2BE6428222FA623A002B4E09 /* NavigationViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewSample.swift; sourceTree = "<group>"; };
+		2BE6428422FA624B002B4E09 /* NavigationViewContentSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewContentSample.swift; sourceTree = "<group>"; };
+		2BE6428622FA6255002B4E09 /* TabViewPresentationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPresentationSample.swift; sourceTree = "<group>"; };
+		2BE6428822FA6263002B4E09 /* TabViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSample.swift; sourceTree = "<group>"; };
+		2BE6428A22FA6271002B4E09 /* EmptyViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewSample.swift; sourceTree = "<group>"; };
+		2BE6428C22FA627B002B4E09 /* AnyViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewSample.swift; sourceTree = "<group>"; };
+		2BE6428E22FA6291002B4E09 /* TupleViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewSample.swift; sourceTree = "<group>"; };
+		2BE6429022FA629F002B4E09 /* EquatableViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewSample.swift; sourceTree = "<group>"; };
+		2BE6429422FA62D8002B4E09 /* AlertSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSample.swift; sourceTree = "<group>"; };
+		2BE6429622FA62E5002B4E09 /* ActionSheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +207,18 @@
 				2B067BA922F98C56004A8051 /* ScrollView.swift */,
 				2B067BAB22F98D1C004A8051 /* Form.swift */,
 				2B067BAD22F98D63004A8051 /* Group.swift */,
+				2BE6429422FA62D8002B4E09 /* AlertSample.swift */,
+				2BE6429622FA62E5002B4E09 /* ActionSheetSample.swift */,
+				2BE6427E22FA621A002B4E09 /* SpacerSample.swift */,
+				2BE6428022FA6231002B4E09 /* DividerSample.swift */,
+				2BE6428222FA623A002B4E09 /* NavigationViewSample.swift */,
+				2BE6428422FA624B002B4E09 /* NavigationViewContentSample.swift */,
+				2BE6428622FA6255002B4E09 /* TabViewPresentationSample.swift */,
+				2BE6428822FA6263002B4E09 /* TabViewSample.swift */,
+				2BE6428A22FA6271002B4E09 /* EmptyViewSample.swift */,
+				2BE6428C22FA627B002B4E09 /* AnyViewSample.swift */,
+				2BE6428E22FA6291002B4E09 /* TupleViewSample.swift */,
+				2BE6429022FA629F002B4E09 /* EquatableViewSample.swift */,
 			);
 			path = "View Layout and Presentation";
 			sourceTree = "<group>";
@@ -117,6 +227,22 @@
 			isa = PBXGroup;
 			children = (
 				2B067BB022F98E2F004A8051 /* ViewAndControls.swift */,
+				2B66DEB322FA60C900DEE894 /* TextSample.swift */,
+				2BE6426022FA613E002B4E09 /* TextFieldSample.swift */,
+				2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */,
+				2BE6426422FA6164002B4E09 /* FontSample.swift */,
+				2BE6426622FA6170002B4E09 /* ImageSample.swift */,
+				2BE6426822FA6182002B4E09 /* ButtonSample.swift */,
+				2BE6426A22FA618C002B4E09 /* NavigationLinkSample.swift */,
+				2BE6426C22FA6194002B4E09 /* EditButtonSample.swift */,
+				2BE6426E22FA61A3002B4E09 /* ToggleSample.swift */,
+				2BE6427022FA61B1002B4E09 /* PickerSample.swift */,
+				2BE6427222FA61BB002B4E09 /* DatePickerSample.swift */,
+				2BE6427422FA61C5002B4E09 /* SliderSample.swift */,
+				2BE6427622FA61D0002B4E09 /* StepperSample.swift */,
+				2BE6427822FA61DF002B4E09 /* SegmentedPickerSample.swift */,
+				2BE6427A22FA61ED002B4E09 /* ViewBuilderSample.swift */,
+				2BE6427C22FA61FA002B4E09 /* ViewModifierSample.swift */,
 			);
 			path = "Views and Controls";
 			sourceTree = "<group>";
@@ -189,6 +315,27 @@
 			isa = PBXGroup;
 			children = (
 				2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */,
+				2B4F675122FA5BD200EF5403 /* AnimationSample.swift */,
+				2B66DE8722FA5C5600DEE894 /* AnimatableSample.swift */,
+				2B66DE8922FA5C6900DEE894 /* WithAnimationSample.swift */,
+				2B66DE8B22FA5C8400DEE894 /* AnimatablePairSample.swift */,
+				2B66DE8D22FA5CBC00DEE894 /* RectangleSample.swift */,
+				2B66DE8F22FA5CD000DEE894 /* EdgeSample.swift */,
+				2B66DE9122FA5CE700DEE894 /* RoundedRectangleSample.swift */,
+				2B66DE9322FA5D1B00DEE894 /* CircleSample.swift */,
+				2B66DE9522FA5D2D00DEE894 /* EllipseSample.swift */,
+				2B66DE9722FA5D4200DEE894 /* CapsuleSample.swift */,
+				2B66DE9922FA5D5600DEE894 /* PathSample.swift */,
+				2B66DE9B22FA5DBA00DEE894 /* ScaledShapeSample.swift */,
+				2B66DE9D22FA5E0800DEE894 /* RotatedShapeSample.swift */,
+				2B66DE9F22FA5E5500DEE894 /* OffsetShapeSample.swift */,
+				2B66DEA122FA5E7F00DEE894 /* TransformedShapeSample.swift */,
+				2B66DEA322FA5EBF00DEE894 /* ColorSample.swift */,
+				2B66DEA522FA5ED600DEE894 /* ImagePaintSample.swift */,
+				2B66DEA722FA5EE400DEE894 /* LinearGradientSample.swift */,
+				2B66DEA922FA5EEF00DEE894 /* AngularGradientSample.swift */,
+				2B66DEAB22FA5EFA00DEE894 /* RadialGradientSample.swift */,
+				2B66DEB122FA5F7E00DEE894 /* GeometryReaderSample.swift */,
 			);
 			path = "Drawing and Animation";
 			sourceTree = "<group>";
@@ -332,18 +479,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B66DEA822FA5EE400DEE894 /* LinearGradientSample.swift in Sources */,
 				2B067BAE22F98D63004A8051 /* Group.swift in Sources */,
+				2BE6429522FA62D8002B4E09 /* AlertSample.swift in Sources */,
+				2BE6429722FA62E5002B4E09 /* ActionSheetSample.swift in Sources */,
+				2B66DEA222FA5E7F00DEE894 /* TransformedShapeSample.swift in Sources */,
+				2BE6427D22FA61FA002B4E09 /* ViewModifierSample.swift in Sources */,
+				2B66DE8C22FA5C8400DEE894 /* AnimatablePairSample.swift in Sources */,
+				2BE6427B22FA61ED002B4E09 /* ViewBuilderSample.swift in Sources */,
+				2BE6429122FA629F002B4E09 /* EquatableViewSample.swift in Sources */,
+				2BE6428122FA6231002B4E09 /* DividerSample.swift in Sources */,
+				2BE6428522FA624B002B4E09 /* NavigationViewContentSample.swift in Sources */,
+				2BE6426122FA613E002B4E09 /* TextFieldSample.swift in Sources */,
+				2B66DEAC22FA5EFA00DEE894 /* RadialGradientSample.swift in Sources */,
+				2B66DE8822FA5C5700DEE894 /* AnimatableSample.swift in Sources */,
+				2BE6428D22FA627B002B4E09 /* AnyViewSample.swift in Sources */,
+				2BE6427F22FA621A002B4E09 /* SpacerSample.swift in Sources */,
+				2BE6427322FA61BB002B4E09 /* DatePickerSample.swift in Sources */,
+				2B66DE9622FA5D2D00DEE894 /* EllipseSample.swift in Sources */,
+				2B4F675222FA5BD200EF5403 /* AnimationSample.swift in Sources */,
+				2B66DE8A22FA5C6900DEE894 /* WithAnimationSample.swift in Sources */,
 				2B22A61622F6988B00128814 /* AppDelegate.swift in Sources */,
+				2B66DEB222FA5F7E00DEE894 /* GeometryReaderSample.swift in Sources */,
 				2B067BB122F98E30004A8051 /* ViewAndControls.swift in Sources */,
 				2B067BA822F98C31004A8051 /* List.swift in Sources */,
 				2B22A61822F6988B00128814 /* SceneDelegate.swift in Sources */,
+				2BE6428322FA623A002B4E09 /* NavigationViewSample.swift in Sources */,
+				2BE6426522FA6164002B4E09 /* FontSample.swift in Sources */,
+				2B66DE9422FA5D1B00DEE894 /* CircleSample.swift in Sources */,
+				2BE6427922FA61DF002B4E09 /* SegmentedPickerSample.swift in Sources */,
+				2BE6428922FA6263002B4E09 /* TabViewSample.swift in Sources */,
 				2B69101222F9B3F300149C5F /* DrawingAndAnimation.swift in Sources */,
+				2B66DEA022FA5E5500DEE894 /* OffsetShapeSample.swift in Sources */,
+				2B66DE9022FA5CD000DEE894 /* EdgeSample.swift in Sources */,
+				2BE6426322FA6157002B4E09 /* SecureFieldSample.swift in Sources */,
 				2B067BA622F98C08004A8051 /* ZStack.swift in Sources */,
+				2B66DE9222FA5CE700DEE894 /* RoundedRectangleSample.swift in Sources */,
 				2B69101522F9B6C600149C5F /* Gesture.swift in Sources */,
 				2B067BA222F98B46004A8051 /* HStack.swift in Sources */,
+				2B66DEB422FA60C900DEE894 /* TextSample.swift in Sources */,
 				2B067BA022F98B12004A8051 /* ViewLayoutAndPresentationList.swift in Sources */,
+				2BE6426922FA6182002B4E09 /* ButtonSample.swift in Sources */,
+				2BE6427122FA61B1002B4E09 /* PickerSample.swift in Sources */,
+				2BE6428F22FA6291002B4E09 /* TupleViewSample.swift in Sources */,
+				2B66DE9A22FA5D5600DEE894 /* PathSample.swift in Sources */,
 				2B22A61A22F6988B00128814 /* ContentView.swift in Sources */,
+				2BE6426D22FA6194002B4E09 /* EditButtonSample.swift in Sources */,
+				2B66DE8E22FA5CBC00DEE894 /* RectangleSample.swift in Sources */,
+				2B66DEA422FA5EBF00DEE894 /* ColorSample.swift in Sources */,
+				2BE6427722FA61D0002B4E09 /* StepperSample.swift in Sources */,
+				2BE6426F22FA61A3002B4E09 /* ToggleSample.swift in Sources */,
+				2B66DE9C22FA5DBA00DEE894 /* ScaledShapeSample.swift in Sources */,
+				2BE6428B22FA6271002B4E09 /* EmptyViewSample.swift in Sources */,
 				2B067BAC22F98D1C004A8051 /* Form.swift in Sources */,
+				2BE6427522FA61C5002B4E09 /* SliderSample.swift in Sources */,
+				2BE6426722FA6170002B4E09 /* ImageSample.swift in Sources */,
+				2B66DE9822FA5D4200DEE894 /* CapsuleSample.swift in Sources */,
+				2B66DEA622FA5ED600DEE894 /* ImagePaintSample.swift in Sources */,
+				2BE6428722FA6255002B4E09 /* TabViewPresentationSample.swift in Sources */,
+				2B66DEAA22FA5EEF00DEE894 /* AngularGradientSample.swift in Sources */,
+				2B66DE9E22FA5E0800DEE894 /* RotatedShapeSample.swift in Sources */,
+				2BE6426B22FA618C002B4E09 /* NavigationLinkSample.swift in Sources */,
 				2B067BA422F98BD5004A8051 /* VStack.swift in Sources */,
 				2B067BAA22F98C56004A8051 /* ScrollView.swift in Sources */,
 			);
