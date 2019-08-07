@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B067BA022F98B12004A8051 /* ViewLayoutAndPresentationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067B9F22F98B12004A8051 /* ViewLayoutAndPresentationList.swift */; };
+		2B067BA222F98B46004A8051 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BA122F98B46004A8051 /* HStack.swift */; };
+		2B067BA422F98BD5004A8051 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BA322F98BD5004A8051 /* VStack.swift */; };
+		2B067BA622F98C08004A8051 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BA522F98C08004A8051 /* ZStack.swift */; };
+		2B067BA822F98C31004A8051 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BA722F98C30004A8051 /* List.swift */; };
+		2B067BAA22F98C56004A8051 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BA922F98C56004A8051 /* ScrollView.swift */; };
+		2B067BAC22F98D1C004A8051 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BAB22F98D1C004A8051 /* Form.swift */; };
+		2B067BAE22F98D63004A8051 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BAD22F98D63004A8051 /* Group.swift */; };
+		2B067BB122F98E30004A8051 /* ViewAndControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B067BB022F98E2F004A8051 /* ViewAndControls.swift */; };
 		2B22A61622F6988B00128814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A61522F6988B00128814 /* AppDelegate.swift */; };
 		2B22A61822F6988B00128814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A61722F6988B00128814 /* SceneDelegate.swift */; };
 		2B22A61A22F6988B00128814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A61922F6988B00128814 /* ContentView.swift */; };
@@ -15,6 +24,8 @@
 		2B22A62222F6988E00128814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B22A62022F6988E00128814 /* LaunchScreen.storyboard */; };
 		2B22A62D22F6988E00128814 /* SwiftUICatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A62C22F6988E00128814 /* SwiftUICatalogTests.swift */; };
 		2B22A63822F6988F00128814 /* SwiftUICatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B22A63722F6988F00128814 /* SwiftUICatalogUITests.swift */; };
+		2B69101222F9B3F300149C5F /* DrawingAndAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */; };
+		2B69101522F9B6C600149C5F /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B69101422F9B6C600149C5F /* Gesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B067B9F22F98B12004A8051 /* ViewLayoutAndPresentationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayoutAndPresentationList.swift; sourceTree = "<group>"; };
+		2B067BA122F98B46004A8051 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
+		2B067BA322F98BD5004A8051 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		2B067BA522F98C08004A8051 /* ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
+		2B067BA722F98C30004A8051 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		2B067BA922F98C56004A8051 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		2B067BAB22F98D1C004A8051 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		2B067BAD22F98D63004A8051 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		2B067BB022F98E2F004A8051 /* ViewAndControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAndControls.swift; sourceTree = "<group>"; };
 		2B22A61222F6988B00128814 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B22A61522F6988B00128814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B22A61722F6988B00128814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,8 @@
 		2B22A63322F6988F00128814 /* SwiftUICatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B22A63722F6988F00128814 /* SwiftUICatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICatalogUITests.swift; sourceTree = "<group>"; };
 		2B22A63922F6988F00128814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAndAnimation.swift; sourceTree = "<group>"; };
+		2B69101422F9B6C600149C5F /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B067B9E22F98AF3004A8051 /* View Layout and Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2B067B9F22F98B12004A8051 /* ViewLayoutAndPresentationList.swift */,
+				2B067BA122F98B46004A8051 /* HStack.swift */,
+				2B067BA322F98BD5004A8051 /* VStack.swift */,
+				2B067BA522F98C08004A8051 /* ZStack.swift */,
+				2B067BA722F98C30004A8051 /* List.swift */,
+				2B067BA922F98C56004A8051 /* ScrollView.swift */,
+				2B067BAB22F98D1C004A8051 /* Form.swift */,
+				2B067BAD22F98D63004A8051 /* Group.swift */,
+			);
+			path = "View Layout and Presentation";
+			sourceTree = "<group>";
+		};
+		2B067BAF22F98E08004A8051 /* Views and Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2B067BB022F98E2F004A8051 /* ViewAndControls.swift */,
+			);
+			path = "Views and Controls";
+			sourceTree = "<group>";
+		};
 		2B22A60922F6988B00128814 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +147,10 @@
 				2B22A61522F6988B00128814 /* AppDelegate.swift */,
 				2B22A61722F6988B00128814 /* SceneDelegate.swift */,
 				2B22A61922F6988B00128814 /* ContentView.swift */,
+				2B69101322F9B6BB00149C5F /* Gesture */,
+				2B69101022F9B3C600149C5F /* Drawing and Animation */,
+				2B067BAF22F98E08004A8051 /* Views and Controls */,
+				2B067B9E22F98AF3004A8051 /* View Layout and Presentation */,
 				2B22A61B22F6988E00128814 /* Assets.xcassets */,
 				2B22A62022F6988E00128814 /* LaunchScreen.storyboard */,
 				2B22A62322F6988E00128814 /* Info.plist */,
@@ -134,6 +183,22 @@
 				2B22A63922F6988F00128814 /* Info.plist */,
 			);
 			path = SwiftUICatalogUITests;
+			sourceTree = "<group>";
+		};
+		2B69101022F9B3C600149C5F /* Drawing and Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */,
+			);
+			path = "Drawing and Animation";
+			sourceTree = "<group>";
+		};
+		2B69101322F9B6BB00149C5F /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				2B69101422F9B6C600149C5F /* Gesture.swift */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B067BAE22F98D63004A8051 /* Group.swift in Sources */,
 				2B22A61622F6988B00128814 /* AppDelegate.swift in Sources */,
+				2B067BB122F98E30004A8051 /* ViewAndControls.swift in Sources */,
+				2B067BA822F98C31004A8051 /* List.swift in Sources */,
 				2B22A61822F6988B00128814 /* SceneDelegate.swift in Sources */,
+				2B69101222F9B3F300149C5F /* DrawingAndAnimation.swift in Sources */,
+				2B067BA622F98C08004A8051 /* ZStack.swift in Sources */,
+				2B69101522F9B6C600149C5F /* Gesture.swift in Sources */,
+				2B067BA222F98B46004A8051 /* HStack.swift in Sources */,
+				2B067BA022F98B12004A8051 /* ViewLayoutAndPresentationList.swift in Sources */,
 				2B22A61A22F6988B00128814 /* ContentView.swift in Sources */,
+				2B067BAC22F98D1C004A8051 /* Form.swift in Sources */,
+				2B067BA422F98BD5004A8051 /* VStack.swift in Sources */,
+				2B067BAA22F98C56004A8051 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
