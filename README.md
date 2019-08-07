@@ -12,11 +12,11 @@ Catalog App for https://developer.apple.com/documentation/swiftui
 
 # Supporting
 
-- 80%  Views and Controls 
-- 100% View Layout and Presentation 
-- 60%  Drawing and Animation 
+- Views and Controls 80%  
+- View Layout and Presentation 100% 
+- Drawing and Animation  60%  
 - ~Framework Integration~
 - ~State and Data Flow~
-- 0% Gestures 
+- Gestures 0% 
 - ~Previews~
 
