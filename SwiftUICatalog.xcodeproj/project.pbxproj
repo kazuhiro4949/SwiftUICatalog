@@ -200,25 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				2B067B9F22F98B12004A8051 /* ViewLayoutAndPresentationList.swift */,
-				2B067BA122F98B46004A8051 /* HStack.swift */,
-				2B067BA322F98BD5004A8051 /* VStack.swift */,
-				2B067BA522F98C08004A8051 /* ZStack.swift */,
-				2B067BA722F98C30004A8051 /* List.swift */,
-				2B067BA922F98C56004A8051 /* ScrollView.swift */,
-				2B067BAB22F98D1C004A8051 /* Form.swift */,
-				2B067BAD22F98D63004A8051 /* Group.swift */,
-				2BE6429422FA62D8002B4E09 /* AlertSample.swift */,
-				2BE6429622FA62E5002B4E09 /* ActionSheetSample.swift */,
-				2BE6427E22FA621A002B4E09 /* SpacerSample.swift */,
-				2BE6428022FA6231002B4E09 /* DividerSample.swift */,
-				2BE6428222FA623A002B4E09 /* NavigationViewSample.swift */,
-				2BE6428422FA624B002B4E09 /* NavigationViewContentSample.swift */,
-				2BE6428622FA6255002B4E09 /* TabViewPresentationSample.swift */,
-				2BE6428822FA6263002B4E09 /* TabViewSample.swift */,
-				2BE6428A22FA6271002B4E09 /* EmptyViewSample.swift */,
-				2BE6428C22FA627B002B4E09 /* AnyViewSample.swift */,
-				2BE6428E22FA6291002B4E09 /* TupleViewSample.swift */,
-				2BE6429022FA629F002B4E09 /* EquatableViewSample.swift */,
+				2BE6429A22FA6504002B4E09 /* Sample */,
 			);
 			path = "View Layout and Presentation";
 			sourceTree = "<group>";
@@ -227,22 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				2B067BB022F98E2F004A8051 /* ViewAndControls.swift */,
-				2B66DEB322FA60C900DEE894 /* TextSample.swift */,
-				2BE6426022FA613E002B4E09 /* TextFieldSample.swift */,
-				2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */,
-				2BE6426422FA6164002B4E09 /* FontSample.swift */,
-				2BE6426622FA6170002B4E09 /* ImageSample.swift */,
-				2BE6426822FA6182002B4E09 /* ButtonSample.swift */,
-				2BE6426A22FA618C002B4E09 /* NavigationLinkSample.swift */,
-				2BE6426C22FA6194002B4E09 /* EditButtonSample.swift */,
-				2BE6426E22FA61A3002B4E09 /* ToggleSample.swift */,
-				2BE6427022FA61B1002B4E09 /* PickerSample.swift */,
-				2BE6427222FA61BB002B4E09 /* DatePickerSample.swift */,
-				2BE6427422FA61C5002B4E09 /* SliderSample.swift */,
-				2BE6427622FA61D0002B4E09 /* StepperSample.swift */,
-				2BE6427822FA61DF002B4E09 /* SegmentedPickerSample.swift */,
-				2BE6427A22FA61ED002B4E09 /* ViewBuilderSample.swift */,
-				2BE6427C22FA61FA002B4E09 /* ViewModifierSample.swift */,
+				2BE6429922FA64EF002B4E09 /* Sample */,
 			);
 			path = "Views and Controls";
 			sourceTree = "<group>";
@@ -315,6 +282,22 @@
 			isa = PBXGroup;
 			children = (
 				2B69101122F9B3F300149C5F /* DrawingAndAnimation.swift */,
+				2BE6429822FA64CA002B4E09 /* Sample */,
+			);
+			path = "Drawing and Animation";
+			sourceTree = "<group>";
+		};
+		2B69101322F9B6BB00149C5F /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				2B69101422F9B6C600149C5F /* Gesture.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		2BE6429822FA64CA002B4E09 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
 				2B4F675122FA5BD200EF5403 /* AnimationSample.swift */,
 				2B66DE8722FA5C5600DEE894 /* AnimatableSample.swift */,
 				2B66DE8922FA5C6900DEE894 /* WithAnimationSample.swift */,
@@ -337,15 +320,56 @@
 				2B66DEAB22FA5EFA00DEE894 /* RadialGradientSample.swift */,
 				2B66DEB122FA5F7E00DEE894 /* GeometryReaderSample.swift */,
 			);
-			path = "Drawing and Animation";
+			path = Sample;
 			sourceTree = "<group>";
 		};
-		2B69101322F9B6BB00149C5F /* Gesture */ = {
+		2BE6429922FA64EF002B4E09 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				2B69101422F9B6C600149C5F /* Gesture.swift */,
+				2B66DEB322FA60C900DEE894 /* TextSample.swift */,
+				2BE6426022FA613E002B4E09 /* TextFieldSample.swift */,
+				2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */,
+				2BE6426422FA6164002B4E09 /* FontSample.swift */,
+				2BE6426622FA6170002B4E09 /* ImageSample.swift */,
+				2BE6426822FA6182002B4E09 /* ButtonSample.swift */,
+				2BE6426A22FA618C002B4E09 /* NavigationLinkSample.swift */,
+				2BE6426C22FA6194002B4E09 /* EditButtonSample.swift */,
+				2BE6426E22FA61A3002B4E09 /* ToggleSample.swift */,
+				2BE6427022FA61B1002B4E09 /* PickerSample.swift */,
+				2BE6427222FA61BB002B4E09 /* DatePickerSample.swift */,
+				2BE6427422FA61C5002B4E09 /* SliderSample.swift */,
+				2BE6427622FA61D0002B4E09 /* StepperSample.swift */,
+				2BE6427822FA61DF002B4E09 /* SegmentedPickerSample.swift */,
+				2BE6427A22FA61ED002B4E09 /* ViewBuilderSample.swift */,
+				2BE6427C22FA61FA002B4E09 /* ViewModifierSample.swift */,
 			);
-			path = Gesture;
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		2BE6429A22FA6504002B4E09 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				2B067BA122F98B46004A8051 /* HStack.swift */,
+				2B067BA322F98BD5004A8051 /* VStack.swift */,
+				2B067BA522F98C08004A8051 /* ZStack.swift */,
+				2B067BA722F98C30004A8051 /* List.swift */,
+				2B067BA922F98C56004A8051 /* ScrollView.swift */,
+				2B067BAB22F98D1C004A8051 /* Form.swift */,
+				2B067BAD22F98D63004A8051 /* Group.swift */,
+				2BE6429422FA62D8002B4E09 /* AlertSample.swift */,
+				2BE6429622FA62E5002B4E09 /* ActionSheetSample.swift */,
+				2BE6427E22FA621A002B4E09 /* SpacerSample.swift */,
+				2BE6428022FA6231002B4E09 /* DividerSample.swift */,
+				2BE6428222FA623A002B4E09 /* NavigationViewSample.swift */,
+				2BE6428422FA624B002B4E09 /* NavigationViewContentSample.swift */,
+				2BE6428622FA6255002B4E09 /* TabViewPresentationSample.swift */,
+				2BE6428822FA6263002B4E09 /* TabViewSample.swift */,
+				2BE6428A22FA6271002B4E09 /* EmptyViewSample.swift */,
+				2BE6428C22FA627B002B4E09 /* AnyViewSample.swift */,
+				2BE6428E22FA6291002B4E09 /* TupleViewSample.swift */,
+				2BE6429022FA629F002B4E09 /* EquatableViewSample.swift */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
