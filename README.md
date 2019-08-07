@@ -11,6 +11,11 @@ This app refers to https://developer.apple.com/documentation/swiftui
 - [x] Showing appearances to each API
 - [x] Providing sample codes to each API
 
+# How to use
+1. Clone this repository
+2. Build the project with Xcode 11.0 beta5
+3. Browse each api
+
 # Supporting
 
 - Views and Controls 80%  
@@ -20,4 +25,5 @@ This app refers to https://developer.apple.com/documentation/swiftui
 - ~State and Data Flow~
 - Gestures 0% 
 - ~Previews~
+- ViewModifier 0%
 
