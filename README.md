@@ -19,8 +19,30 @@ This app currently targets iOS and refers to https://developer.apple.com/documen
 
 # Usage
 1. Clone this repository
-2. Build the project with Xcode 11.0 beta5
-3. Browse each api
+2. Open the project in Xcode 11.0 beta5
+3. Browse APIs like the doc
+
+# Example
+For example, SegmentPicker is implemented using Picker.
+
+```swift
+struct SegmentedPickerSample: View {
+    var elems = ["Short", "Tall", "Grande", "Venti"]
+    @State var selection: Int = 0
+    
+    var body: some View {
+        Picker(selection: $selection, label: Text("Picker")) {
+            ForEach(0..<elems.endIndex) {
+                Text(self.elems[$0]).tag($0)
+            }
+        }.pickerStyle(SegmentedPickerStyle())
+        .frame(width: 200)
+    }
+}
+```
+
+It is impemented in [this file](https://github.com/kazuhiro4949/SwiftUICatalog/blob/master/SwiftUICatalog/Views%20and%20Controls/Sample/SegmentedPickerSample.swift) and you can immediatly run in Simulator or check in Preview.
+
 
 # Support status
 
