@@ -6,7 +6,7 @@ Catalog App for https://developer.apple.com/documentation/swiftui
 - [x] Showing appearances to each API
 - [x] Providing sample codes to each API
 
-# Supporting State
+# Supporting
 
 - [x] Views and Controls 80%
 - [x] View Layout and Presentation 100%
