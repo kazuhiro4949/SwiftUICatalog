@@ -1,6 +1,6 @@
 # SwiftUICatalog
 
-Can you imagine how UIs works from API references?
+Can you imagine how UI works from the API reference?
 I created a catalog app showing minimum implementation and execution result for each the API.
 
 SwiftUI has many references to get started.
