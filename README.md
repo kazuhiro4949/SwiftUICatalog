@@ -5,7 +5,7 @@ Can you imagine how UI works from the API reference?
 I created a catalog app showing minimum implementation and execution result for each the API.
 
 SwiftUI has many references to get started.
-SwiftUI Tutorial is the best to know how much potential SwiftUI has.
+SwiftUI Tutorial is the best tool to know how much potential SwiftUI has.
 But it is a littel complex to research how to use each the API.
 
 This app currently targets iOS and refers to https://developer.apple.com/documentation/swiftui
@@ -24,7 +24,7 @@ This app currently targets iOS and refers to https://developer.apple.com/documen
 3. Browse APIs like the doc
 
 # Example
-For example, SegmentPicker is implemented using Picker.
+For example, SegmentedControl is implemented using Picker.
 
 ```swift
 struct SegmentedPickerSample: View {
