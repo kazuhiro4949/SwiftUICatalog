@@ -32,8 +32,12 @@ struct ViewAndControls: View {
                 NavigationLink("Slider", destination: SliderSample())
                 NavigationLink("Stepper", destination: StepperSample())
                 NavigationLink("SegmentedControl", destination: SegmentedPickerSample())
+            }
+            Section(header: Text("Supporting Types")) {
+                Text("StaticMember")
                 NavigationLink("ViewBuilder", destination: ViewBuilderSample())
                 NavigationLink("ViewModifier", destination: ViewModifierSample())
+                Text("PullDownButton")
             }
         }.navigationBarTitle("Views And Controls")
     }

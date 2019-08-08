@@ -23,7 +23,7 @@ struct AnimatablePairSample: View {
             ).frame(width: 200, height: 200)
                 .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: true))
             
-            Button.init("Rotate and Color") {
+            Button("Rotate and Color") {
                 self.rotation = 1.5
                 self.color = .blue
             }
