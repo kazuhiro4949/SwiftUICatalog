@@ -26,28 +26,28 @@ struct Gesture: View {
     var body: some View {
         List {
             Section(header: Text("Basic Gestures")) {
-                NavigationLink("TapGesture", destination: EmptyView())
-                NavigationLink("LongPressGesture", destination: EmptyView())
-                NavigationLink("DragGesture", destination: EmptyView())
-                NavigationLink("MagnificationGesture", destination: EmptyView())
-                NavigationLink("RotationGesture", destination: EmptyView())
+                NavigationLink("TapGesture", destination: TapGestureSample())
+                NavigationLink("LongPressGesture", destination: LongPressGestureSample())
+                NavigationLink("DragGesture", destination: DragGestureSample())
+                NavigationLink("MagnificationGesture", destination: MagnificationGestureSample())
+                NavigationLink("RotationGesture", destination: RotationGestureSample())
             }
             Section(header: Text("Combined Gestures")) {
-                NavigationLink("SequenceGesture", destination: EmptyView())
-                NavigationLink("SimultaneousGesture", destination: EmptyView())
-                NavigationLink("ExclusiveGesture", destination: EmptyView())
+                NavigationLink("SequenceGesture", destination: SequenceGestureSample())
+                NavigationLink("SimultaneousGesture", destination: SimultaneousGestureSample())
+                NavigationLink("ExclusiveGesture", destination: ExclusiveGestureSample())
             }
             Section(header: Text("Custom Gestures")) {
-                NavigationLink("Gesture", destination: EmptyView())
-                NavigationLink("AnyGesture", destination: EmptyView())
+                NavigationLink("Gesture", destination: GestureSample())
+                NavigationLink("AnyGesture", destination: AnyGestureSample())
             }
             Section(header: Text("Dynamic View Properties")) {
-                NavigationLink("GestureState", destination: EmptyView())
-                NavigationLink("GestureStateGesture", destination: EmptyView())
+                NavigationLink("GestureState", destination: GestureStateSample())
+                NavigationLink("GestureStateGesture", destination: GestureStateGestureSample())
             }
             Section(header: Text("Gesture Support")) {
-                NavigationLink("GestureMask", destination: EmptyView())
-                NavigationLink("EventModifier", destination: EmptyView())
+                NavigationLink("GestureMask", destination: GestureMaskSample())
+                NavigationLink("EventModifier", destination: EventModifierSample())
             }
         }.navigationBarTitle("Gesture")
     }
