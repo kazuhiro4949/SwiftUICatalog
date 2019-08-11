@@ -2,7 +2,7 @@
 //  GestureMaskSample.swift
 //  SwiftUICatalog
 //
-//  Created by kahayash on 8/9/1 R.
+//  Created by Kazuhiro Hayashi on 8/9/1 R.
 //  Copyright © 1 Reiwa Kazuhiro Hayashi. All rights reserved.
 //
 
