@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct MagnificationGestureSample: View {
+    @State var scale: CGFloat = 1
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        let gesture = MagnificationGesture(minimumScaleDelta: 1)
+        .onChanged { (value) in
+            self.scale = value
+        }
+        .onEnded { (value) in
+            self.scale = value
+        }
+        
+        return Circle().foregroundColor(.red).scaleEffect(scale).gesture(gesture)
     }
 }
 

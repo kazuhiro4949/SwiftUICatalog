@@ -56,12 +56,7 @@
 		2BCE76CF22FD6725007ED1A3 /* SequenceGestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76CE22FD6725007ED1A3 /* SequenceGestureSample.swift */; };
 		2BCE76D122FD672F007ED1A3 /* SimultaneousGestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76D022FD672F007ED1A3 /* SimultaneousGestureSample.swift */; };
 		2BCE76D322FD6738007ED1A3 /* ExclusiveGestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76D222FD6738007ED1A3 /* ExclusiveGestureSample.swift */; };
-		2BCE76D522FD6743007ED1A3 /* GestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76D422FD6743007ED1A3 /* GestureSample.swift */; };
-		2BCE76D722FD674B007ED1A3 /* AnyGestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76D622FD674B007ED1A3 /* AnyGestureSample.swift */; };
-		2BCE76D922FD6757007ED1A3 /* GestureStateSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76D822FD6757007ED1A3 /* GestureStateSample.swift */; };
-		2BCE76DB22FD6762007ED1A3 /* GestureStateGestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76DA22FD6762007ED1A3 /* GestureStateGestureSample.swift */; };
 		2BCE76DD22FD678B007ED1A3 /* GestureMaskSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76DC22FD678B007ED1A3 /* GestureMaskSample.swift */; };
-		2BCE76DF22FD6796007ED1A3 /* EventModifierSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE76DE22FD6796007ED1A3 /* EventModifierSample.swift */; };
 		2BE6426122FA613E002B4E09 /* TextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426022FA613E002B4E09 /* TextFieldSample.swift */; };
 		2BE6426322FA6157002B4E09 /* SecureFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */; };
 		2BE6426522FA6164002B4E09 /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6426422FA6164002B4E09 /* FontSample.swift */; };
@@ -164,12 +159,7 @@
 		2BCE76CE22FD6725007ED1A3 /* SequenceGestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureSample.swift; sourceTree = "<group>"; };
 		2BCE76D022FD672F007ED1A3 /* SimultaneousGestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestureSample.swift; sourceTree = "<group>"; };
 		2BCE76D222FD6738007ED1A3 /* ExclusiveGestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureSample.swift; sourceTree = "<group>"; };
-		2BCE76D422FD6743007ED1A3 /* GestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureSample.swift; sourceTree = "<group>"; };
-		2BCE76D622FD674B007ED1A3 /* AnyGestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyGestureSample.swift; sourceTree = "<group>"; };
-		2BCE76D822FD6757007ED1A3 /* GestureStateSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateSample.swift; sourceTree = "<group>"; };
-		2BCE76DA22FD6762007ED1A3 /* GestureStateGestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateGestureSample.swift; sourceTree = "<group>"; };
 		2BCE76DC22FD678B007ED1A3 /* GestureMaskSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMaskSample.swift; sourceTree = "<group>"; };
-		2BCE76DE22FD6796007ED1A3 /* EventModifierSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModifierSample.swift; sourceTree = "<group>"; };
 		2BE6426022FA613E002B4E09 /* TextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSample.swift; sourceTree = "<group>"; };
 		2BE6426222FA6157002B4E09 /* SecureFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldSample.swift; sourceTree = "<group>"; };
 		2BE6426422FA6164002B4E09 /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
@@ -335,12 +325,7 @@
 				2BCE76CE22FD6725007ED1A3 /* SequenceGestureSample.swift */,
 				2BCE76D022FD672F007ED1A3 /* SimultaneousGestureSample.swift */,
 				2BCE76D222FD6738007ED1A3 /* ExclusiveGestureSample.swift */,
-				2BCE76D422FD6743007ED1A3 /* GestureSample.swift */,
-				2BCE76D622FD674B007ED1A3 /* AnyGestureSample.swift */,
-				2BCE76D822FD6757007ED1A3 /* GestureStateSample.swift */,
-				2BCE76DA22FD6762007ED1A3 /* GestureStateGestureSample.swift */,
 				2BCE76DC22FD678B007ED1A3 /* GestureMaskSample.swift */,
-				2BCE76DE22FD6796007ED1A3 /* EventModifierSample.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -556,12 +541,10 @@
 				2B66DEA822FA5EE400DEE894 /* LinearGradientSample.swift in Sources */,
 				2B067BAE22F98D63004A8051 /* Group.swift in Sources */,
 				2BE6429522FA62D8002B4E09 /* AlertSample.swift in Sources */,
-				2BCE76DB22FD6762007ED1A3 /* GestureStateGestureSample.swift in Sources */,
 				2BE6429722FA62E5002B4E09 /* ActionSheetSample.swift in Sources */,
 				2B66DEA222FA5E7F00DEE894 /* TransformedShapeSample.swift in Sources */,
 				2BE6427D22FA61FA002B4E09 /* ViewModifierSample.swift in Sources */,
 				2B66DE8C22FA5C8400DEE894 /* AnimatablePairSample.swift in Sources */,
-				2BCE76D522FD6743007ED1A3 /* GestureSample.swift in Sources */,
 				2BE6427B22FA61ED002B4E09 /* ViewBuilderSample.swift in Sources */,
 				2BE6429122FA629F002B4E09 /* EquatableViewSample.swift in Sources */,
 				2BE6428122FA6231002B4E09 /* DividerSample.swift in Sources */,
@@ -585,7 +568,6 @@
 				2BCE76C522FD66E7007ED1A3 /* TapGestureSample.swift in Sources */,
 				2B067BA822F98C31004A8051 /* List.swift in Sources */,
 				2B22A61822F6988B00128814 /* SceneDelegate.swift in Sources */,
-				2BCE76DF22FD6796007ED1A3 /* EventModifierSample.swift in Sources */,
 				2BE6428322FA623A002B4E09 /* NavigationViewSample.swift in Sources */,
 				2BE6426522FA6164002B4E09 /* FontSample.swift in Sources */,
 				2B66DE9422FA5D1B00DEE894 /* CircleSample.swift in Sources */,
@@ -600,7 +582,6 @@
 				2B66DE9222FA5CE700DEE894 /* RoundedRectangleSample.swift in Sources */,
 				2BCE76CD22FD671B007ED1A3 /* RotationGestureSample.swift in Sources */,
 				2B69101522F9B6C600149C5F /* Gesture.swift in Sources */,
-				2BCE76D722FD674B007ED1A3 /* AnyGestureSample.swift in Sources */,
 				2B067BA222F98B46004A8051 /* HStack.swift in Sources */,
 				2B66DEB422FA60C900DEE894 /* TextSample.swift in Sources */,
 				2B067BA022F98B12004A8051 /* ViewLayoutAndPresentationList.swift in Sources */,
@@ -617,7 +598,6 @@
 				2BE6426F22FA61A3002B4E09 /* ToggleSample.swift in Sources */,
 				2B66DE9C22FA5DBA00DEE894 /* ScaledShapeSample.swift in Sources */,
 				2BE6428B22FA6271002B4E09 /* EmptyViewSample.swift in Sources */,
-				2BCE76D922FD6757007ED1A3 /* GestureStateSample.swift in Sources */,
 				2B067BAC22F98D1C004A8051 /* Form.swift in Sources */,
 				2BE6427522FA61C5002B4E09 /* SliderSample.swift in Sources */,
 				2BE6426722FA6170002B4E09 /* ImageSample.swift in Sources */,

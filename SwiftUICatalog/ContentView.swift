@@ -58,7 +58,7 @@ struct ComponentList: View {
                 }
                 Section(header: Text("Data and Events")) {
                     Text("State and Data Flow")
-                    NavigationLink("Gestures", destination: Gesture())
+                    NavigationLink("Gestures", destination: GestureSection())
                 }
                 Section(header: Text("Preview in Xcode")) {
                     Text("Previews")

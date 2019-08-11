@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct GestureMaskSample: View {
+    @State var color = Color.blue
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        let tap = TapGesture()
+            .onEnded { _ in
+                self.color = self.color == .blue ? .red : .blue
+            }
+        
+        return Circle()
+            .foregroundColor(color)
+            .gesture(tap, including: GestureMask.all)
     }
 }
 

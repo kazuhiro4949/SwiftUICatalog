@@ -22,7 +22,7 @@
 
 import SwiftUI
 
-struct Gesture: View {
+struct GestureSection: View {
     var body: some View {
         List {
             Section(header: Text("Basic Gestures")) {
@@ -38,16 +38,16 @@ struct Gesture: View {
                 NavigationLink("ExclusiveGesture", destination: ExclusiveGestureSample())
             }
             Section(header: Text("Custom Gestures")) {
-                NavigationLink("Gesture", destination: GestureSample())
-                NavigationLink("AnyGesture", destination: AnyGestureSample())
+                Text("Gesture")
+                Text("AnyGesture")
             }
             Section(header: Text("Dynamic View Properties")) {
-                NavigationLink("GestureState", destination: GestureStateSample())
-                NavigationLink("GestureStateGesture", destination: GestureStateGestureSample())
+                Text("GestureState")
+                Text("GestureStateGesture")
             }
             Section(header: Text("Gesture Support")) {
                 NavigationLink("GestureMask", destination: GestureMaskSample())
-                NavigationLink("EventModifier", destination: EventModifierSample())
+                Text("GestureStateGesture")
             }
         }.navigationBarTitle("Gesture")
     }
@@ -56,7 +56,7 @@ struct Gesture: View {
 #if DEBUG
 struct Gesture_Previews: PreviewProvider {
     static var previews: some View {
-        Gesture()
+        GestureSection()
     }
 }
 #endif
