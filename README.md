@@ -59,7 +59,7 @@ I'm adding them sequentially.
 - Drawing and Animation  60%  
 - ~Framework Integration~
 - ~State and Data Flow~
-- Gestures 0% 
+- Gestures 70% 
 - ~Previews~
 - ViewModifier 0%
 
